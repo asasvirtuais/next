@@ -1,0 +1,33 @@
+{
+  "name": "@asasvirtuais/next",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "Next.js utilities for CRUD operations",
+  "homepage": "https://github.com/asasvirtuais/next",
+  "repository": "https://github.com/asasvirtuais/next",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "scripts": {},
+  "files": ["src"],
+  "keywords": [
+    "nextjs",
+    "crud",
+    "routes",
+    "typescript"
+  ],
+  "author": "asasvirtuais",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "next": ">=14.0.0"
+  },
+  "dependencies": {
+    "@asasvirtuais/crud": "workspace:*"
+  }
+}
