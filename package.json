@@ -28,6 +28,6 @@
     "next": ">=14.0.0"
   },
   "dependencies": {
-    "@asasvirtuais/crud": "workspace:*"
+    "@asasvirtuais/crud": "github:asasvirtuais/crud#main"
   }
 }
